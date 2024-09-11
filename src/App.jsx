@@ -8,12 +8,12 @@ function App() {
   const { pathname } = useLocation();
 
   return (
-    <>
+    <Container>
       {
         pathname !== '/' && pathname !== '/not-found' && <Container><Header /></Container>
       }
       <RouteController />
-    </>
+    </Container>
   )
 }
 

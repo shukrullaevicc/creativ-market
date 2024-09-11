@@ -17,7 +17,7 @@ const Cart = () => {
   }, [cart, dispatch]);
 
   return (
-    <div className="flex flex-col items-end p-5 min-h-screen">
+    <div className="flex flex-col items-end p-5 min-h-screen mt-36">
       <table className="w-full border-collapse mb-5">
         <thead>
           <tr className="bg-blue-500 text-white">

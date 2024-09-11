@@ -36,7 +36,7 @@ const cards = () => {
   };
 
   return (
-  <div className='mt-10 flex flex-col gap-12 text-center'>
+  <div className='mt-40 flex flex-col gap-12 text-center'>
     <div className="container">
       <h1 className="text-3xl font-semibold text-gray-900">All Products</h1>
       <div className="grid grid-cols-4 gap-7 mt-14">
